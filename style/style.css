@@ -1,0 +1,145 @@
+#bannerInnerDiv1 {
+ background-color: aqua;
+ width: 50%;
+ text-align: center;
+}
+
+#bannerInnerDiv2 {
+ background-color: blanchedalmond;
+ width: 50%;
+}
+
+.bannerDiv {
+ border: 10px solid goldenrod;
+ display: inline-flex;
+ width: 95%;
+ padding: 10px;
+ margin: 10px;
+
+
+}
+
+#green-boy {
+ height: 15rem;
+ display: flex;
+ flex-direction: column;
+
+}
+
+#itemsDiv {
+ background: scroll;
+ background-color: goldenrod;
+ margin: 10px;
+ padding: 10px;
+ text-align: center;
+
+}
+header>nav>ul>li{
+ display:inline ;
+ padding-right: 3rem;
+}
+header>nav>ul>li>a {
+ text-decoration: none;
+ gap: 20px;
+}
+
+
+
+footer>p>span {
+ vertical-align: super;
+}
+
+section>article {
+ background-color: cornsilk;
+ padding: 2em;
+ margin: 2em;
+ text-align: center;
+}
+section>#text-decoration>#type1{
+ text-decoration: overline;
+ text-decoration-color: red;
+ text-decoration-style: solid;
+ text-decoration-thickness: auto;
+}
+
+section>#text-decoration>#type2{
+ text-decoration: line-through;
+ text-decoration-color: blue;
+ text-decoration-style: double;
+ text-decoration-thickness: 5px;
+}
+
+ section>#text-decoration>#type3{
+ text-decoration: underline;
+ text-decoration-color: green;
+ text-decoration-style: wavy;
+ text-decoration-thickness: 15%;
+}
+section>#text-decoration>#type4{
+ text-decoration: overline underline;
+ text-decoration-color: purple;
+ text-decoration-style: dashed;
+ text-decoration-thickness: 12px;
+}
+
+section>#font-family>#type1{
+ font-family:serif ;}
+
+section>#font-family>#type2{
+ font-family:  sans-serif;
+}
+section>#font-family>#type3{
+ font-family:monospace ;
+}
+section>#font-family>#type4{
+ font-family:c ;
+}
+section>#font-family>#type5{
+ font-family: fantasy;
+}
+
+section>#font-size>#type1{
+ font-size: 40px;
+}
+section>#font-size>#type2{
+ font-size: 20px;
+}
+section>#font-size>#type3{
+ font-size: 14px;
+}
+
+section>#font-size>#em1{
+ font-size: 2.5em;
+}
+section>#font-size>#em2{
+ font-size: 1.87em;
+}
+section>#font-size>#em3{
+ font-size: 0.87em;
+}
+section>#font-size>h2{
+text-decoration: underline;
+text-decoration-color: red;
+text-decoration-thickness: 5px;
+}
+section>#font-size>h1{
+ font-size: 30px;
+ font-family: fantasy;
+}
+section>#font-size>#vw1{
+ font-size: 10vw;
+}
+section>#font-size>#vw2{
+ font-size: 5vw;
+}
+section>#font-size>#vw3{
+ font-size: 5vw;
+}
+
+section  article  table tr  td + th{
+ border: 5px solid white;
+ background-color: aqua;
+ text-align: center;
+ vertical-align: middle;
+ gap: 10px;
+}

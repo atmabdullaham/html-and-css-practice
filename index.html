@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html and css practice</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="nav" s>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="details.html">Details</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="bannerDiv">
+        <div id="bannerInnerDiv1">
+          <h2>This is the Banner Section.</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+            adipisci fugiat tempore, vitae quo nisi. Eius autem atque cum nobis.
+          </p>
+        </div>
+        <div id="bannerInnerDiv2">
+          <img id="green-boy" src="img/green-boy.jpg" alt="" />
+        </div>
+      </div>
+      <div id="itemsDiv">
+        <h1>This is the Items section</h1>
+        <ol>
+          <li>Books</li>
+          <li>Cloths</li>
+          <li>Products</li>
+          <li>charset</li>
+          <li>Tables</li>
+          <li>Schools</li>
+          <li>Inro</li>
+          <li>River</li>
+          <li>Sea</li>
+          <li>Bank</li>
+        </ol>
+      </div>
+      <section>
+        <article id="text-decoration">
+          <h1>The Practice of text decoration</h1>
+          <h2 id="type1">Over line text-decoration</h2>
+          <h2 id="type2">Line Through text-decoration</h2>
+          <h2 id="type3">Under Line text-decoration</h2>
+          <h2 id="type4">Overline and underline Text-decoration</h2>
+        </article>
+        <article id="font-family">
+          <h1>Practice of font-family</h1>
+          <p>In CSS there are five generic font families:</p>
+          <h2 id="type1">
+            Serif fonts have a small stroke at the edges of each letter. They
+            create a sense of formality and elegance.
+          </h2>
+          <h2 id="type2">
+            Sans-serif fonts have clean lines (no small strokes attached). They
+            create a modern and minimalistic look.
+          </h2>
+          <h2 id="type3">
+            Monospace fonts - here all the letters have the same fixed width.
+            They create a mechanical look.
+          </h2>
+          <h2 id="type4">Cursive fonts imitate human handwriting.</h2>
+          <h2 id="type5">Fantasy fonts are decorative/playful fonts.</h2>
+        </article>
+        <article id="font-size">
+          <h1>Practice of font-size</h1>
+          <p>The font-size property sets the size of the text.</p>
+          <p>The font-size value can be an absolute, or relative size.</p>
+          <h2>Absolute Size:</h2>
+          <ul>
+            <li>Sets the text to a specific size</li>
+            <li>
+              Does not allow a user to change the text size in all browsers
+            </li>
+            <li>
+              Absolute size is useful when the physical size of the output is
+              known
+            </li>
+          </ul>
+          <h2>Relative Size:</h2>
+          <ul>
+            <li>Sets the size relative to surrounding elements</li>
+            <li>Allows a user to change the text size in browsers</li>
+          </ul>
+          <h2>Sets font size with pixels</h2>
+          <p>
+            Setting the text size with pixels gives you full control over the
+            text size.
+          </p>
+          <h3 id="type1">This is the 40px h3</h3>
+          <h3 id="type2">This is the 20px h3</h3>
+          <h3 id="type3">This is the 14px h3</h3>
+
+          <h2>Sets font size with em</h2>
+          <p>
+            To allow users to resize the text (in the browser menu), many
+            developers use em instead of pixels. 1em is equal to the current
+            font size. The default text size in browsers is 16px. So, the
+            default size of 1em is 16px. The size can be calculated from pixels
+            to em using this formula: *pixels*/16=*em*
+          </p>
+          <h3 id="em1">This is 2.5em h3</h3>
+          <h3 id="em2">This is 1.87em h3</h3>
+          <h3 id="em3">This is 0.87em h3</h3>
+
+          <h2>Use a combination of percent and em</h2>
+          <p>
+            The solution that works in all browsers, is to set a default
+            font-size in percent for the body element:
+          </p>
+          <h3>This is the 100% of use of percent combinations</h3>
+          <h2>Responsive font size</h2>
+          <p>
+            he text size can be set with a `vw` unit, which means the "viewport
+            width". That way the text size will follow the size of the browser
+            window:
+          </p>
+          <h3 id="vw1">Font size 10vw</h3>
+          <h3 id="vw2">Font size 5vw of h3</h3>
+          <p id="vw3">
+            Font size 5vw Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Id cupiditate soluta hic laborum ex a aperiam dolore quam qui?
+            Eius reprehenderit quaerat beatae harum quas, debitis sunt expedita
+            laborum illo!
+          </p>
+        </article>
+        <article>
+          <h1>font-style</h1>
+          <p>The font-style property is mostly used to specify italic text.</p>
+          <ul>
+            This property has three values:
+            <br />
+            <br />
+            <li>Normal- The text is shown normally</li>
+            <li>italic- The text shown in italics</li>
+          </ul>
+        </article>
+        <article>
+          <h1>CSS Selector:</h1>
+          <strong
+            >Css selectors are patterns used to select and style HTML elements.
+            Understanding these selectors is fundamental for effective web
+            design.
+          </strong>
+          <ol>
+            <li>Universal Selector</li>
+            <li>Element Selector</li>
+            <li>Class Selector</li>
+            <li>Id Selector</li>
+            <li>Attribute Selector</li>
+            <li>Descendant Selector(space)</li>
+            <li>Child Selector (>)</li>
+            <li>Adjacent Sibling Selector(+)</li>
+            <li>General Sibling Selector (~)</li>
+            <li>Pseudo-classes</li>
+            <li>Pseudo-element</li>
+          </ol>
+        </article>
+        <article>
+          <h1>
+            CSS provides various measuring units to specify sizes, lengths, and
+            dimensions. Here’s a breakdown of the most common CSS measuring
+            units along with examples:
+          </h1>
+          <h2>Absolute Units</h2>
+          <p>
+            Absolute units are fixed in size and do not change with screen size
+            or resolution.
+          </p>
+          <h2>Relative Units</h2>
+          <p></p>
+          <ol>
+            <li>
+              ### a. Percentages (%) - **Definition**: A percentage is relative
+              to the parent element's size. - **Use Case**: Commonly used for
+              responsive design.
+            </li>
+            <li>
+              ### b. Em (em) - **Definition**: Relative to the font size of the
+              element (1em = the current font size). - **Use Case**: Useful for
+              scalable layouts.
+            </li>
+            <li>
+              ### c. Rem (rem) - **Definition**: Relative to the root element's
+              font size (1rem = font size of the root element). - **Use Case**:
+              Provides consistency across different elements.
+            </li>
+            <li>
+              ### d. Viewport Units (vw, vh, vmin, vmax) - **Definition**:
+              Relative to the viewport size. - **vw**: 1% of the viewport width.
+              - **vh**: 1% of the viewport height. - **vmin**: The smaller value
+              of vw or vh. - **vmax**: The larger value of vw or vh. - **Use
+              Case**: Great for responsive design.
+            </li>
+          </ol>
+        </article>
+        <article>
+          <h1>The difference between div and span element in html</h1>
+          <table>
+            <tr>
+              <th>Type</th>
+              <th>div</th>
+              <th>span</th>
+            </tr>
+            <tr>
+              <td>Type:</td>
+              <td>Block Level Element</td>
+              <td>Inline element</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>all right reserved <span>by</span> Programming Hero 2024.</p>
+    </footer>
+  </body>
+</html>
